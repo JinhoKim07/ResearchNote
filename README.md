@@ -11,10 +11,3 @@
     * real RPKM in RI regions
   * rMATS
 
-## Lamin B Project, GS Shin
-
-## Smug1 Project, MJ An
-
-## PFOS Project, EG Min (SeoulTech)
-
-## HP1 Project, YN Park
