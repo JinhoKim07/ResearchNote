@@ -1,4 +1,4 @@
-# Meeting Archive
+# Project Progress
 
 ## To Do List
 
@@ -13,20 +13,8 @@
 
 ## Lamin B Project, GS Shin
 
-[Full Document Link](Details/GSShin\_LaminB.html) (Last Update, 240513)
-
 ## Smug1 Project, MJ An
-
-[Full Document Link](Details/MJAn\_Smug1.html) (Last Update, 240513)
 
 ## PFOS Project, EG Min (SeoulTech)
 
-
-
-## 240514, RI Analysis
-
-&#x20;(Last Update, 240513)
-
 ## HP1 Project, YN Park
-
-Full Document Link (Last Update, 240516)
