@@ -1,6 +1,18 @@
 # Smug1 Project, MJ An
 
+
+
 ## 240520, CpG/non-CpG Methylation Pattern
+
+### Meeting
+
+- Failed to detect non-CpG patterns among TSS/TES/Top/Bot
+  - mlvl of TES Top is similar to others (cumulative plots)
+  - TES +- 100bp and TSS +- 100bp versus All PC genes
+  - TES +- 300bp and TSS +- 300bp versus All PC genes
+  - Top All and Bot All are same as 4 groups
+- (Future work) How to filter zero or sparse regions?
+- (Future work) Top and Bot gene selection criteria?
 
 ### Plan
 
