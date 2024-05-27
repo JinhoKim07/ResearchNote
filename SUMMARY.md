@@ -3,7 +3,7 @@
 * [Main Page](README.md)
 * [BI Project](bi-project/README.md)
   * [Toxico Transcriptome](bi-project/toxico-transcriptome.md)
-  * [FROM Project, Prof. SH Lee (Dong-A Univ.)](bi-project/from-project-prof.-sh-lee-dong-a-univ..md)
+  * [FROM Project, Prof. SH Lee (Dong-A Univ.)](bi-project/from-project-prof.-sh-lee-chosun-univ..md)
   * [Benzo\[a\]pyrene Project, Prof. SH Lee (CAU)](bi-project/benzo-a-pyrene-project-prof.-sh-lee-cau.md)
   * [Sharpin Project, Prof. SJ Kim (Chosun Univ.)](bi-project/sharpin-project-prof.-sj-kim-chosun-univ..md)
 * [Collaborative Project Progress](<README (1).md>)

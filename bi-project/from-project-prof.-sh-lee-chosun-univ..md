@@ -1,4 +1,4 @@
-# FROM Project, Prof. SH Lee (Chosun)
+# FROM Project, Prof. SH Lee (Dong-A Univ.)
 
 ## 240523, LabMeeting&#x20;
 
