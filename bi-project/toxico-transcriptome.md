@@ -10,6 +10,8 @@
 
 > RI -> **It is the most sensitive marker and a critical factor that manifests even at low exposure levels.**
 
+**The main figure shows logFC and PValue, with expressions provided in the supplementary materials.**
+
 * Fig 1. All group analysis, gene-level&#x20;
   * There is no changes in DEG
 * Fig 2-4. Expand to Transcript-level
