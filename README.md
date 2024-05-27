@@ -5,7 +5,7 @@
 ### BI Project
 
 * [Toxico Transcriptome](bi-project/toxico-transcriptome.md) -> In progress
-* [FROM project](bi-project/from-project-prof.-sh-lee-chosun-univ..md) -> Wrap up
+* [FROM project](bi-project/from-project-prof.-sh-lee-dong-a-univ..md) -> Wrap up
 * [Beno\[a\]pyrene project](bi-project/benzo-a-pyrene-project-prof.-sh-lee-cau.md)  w/ YJ Hwangbo -> In progress
 
 ### Collaborative Project
