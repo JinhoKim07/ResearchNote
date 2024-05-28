@@ -1,5 +1,23 @@
 # GPS Project, HM Lee
 
+## HiC Run Progress
+
+Command for Split Run, 8 nodes \[11-17,20] in GDLWulf
+
+```bash
+bash ./juicer/scripts/juicer.sh \
+-z ./juicer/references/Mus_musculus.GRCm38.dna.primary_assembly.fa \
+-p ./juicer/references/GRCm38p6_Chromsize.txt \
+-y ./juicer/restriction_sites/GRCm38p6_MboI.txt \
+-s MboI \
+-g GRCm38p6 \
+-t 12
+-S early
+```
+
+* Set1, 10 samples, w/ early stop, SRR10359958 \~ SRR10359967
+  * Start at 240528-1100
+
 ## 240525, Hi-C Error
 
 * Error occured at `dupmerge` in `dedup` process of JUICER.
