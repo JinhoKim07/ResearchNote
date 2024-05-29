@@ -11,8 +11,8 @@ bash ./juicer/scripts/juicer.sh \
 -y ./juicer/restriction_sites/GRCm38p6_MboI.txt \
 -s MboI \
 -g GRCm38p6 \
--t 12
--S early
+-t 12 \
+-e
 ```
 
 * Set1, 10 samples, w/ early stop, SRR10359958 \~ SRR10359967
