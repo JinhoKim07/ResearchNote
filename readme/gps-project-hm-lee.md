@@ -17,6 +17,8 @@ bash ./juicer/scripts/juicer.sh \
 
 * Set1, 10 samples, w/ early stop, SRR10359958 \~ SRR10359967
   * Start at 240528-1100
+* Set2, 10samples, w/ early stop, SRR10359968 \~ SRR10359977
+  * Start at 240530-2054
 
 ## 240525, Hi-C Error
 
