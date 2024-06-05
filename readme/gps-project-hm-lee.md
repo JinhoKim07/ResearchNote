@@ -1,8 +1,24 @@
 # GPS Project, HM Lee
 
-## HiC Run Progress
+## HiC Run Single
 
-Command for Split Run, 8 nodes \[11-17,20] in GDLWulf
+* In the previous process, computations were performed by combining multiple technical replicates, which can eliminate natural duplication.&#x20;
+* Therefore, it is necessary to perform computations separately for each technical replicates and subsequently merge them.&#x20;
+* For the results of all computations, the merging method needs to be considered separately.
+
+```bash
+bash ./juicer/scripts/juicer.sh \
+-z ./juicer/references/Mus_musculus.GRCm38.dna.primary_assembly.fa \
+-p ./juicer/references/GRCm38p6_Chromsize.txt \
+-y ./juicer/restriction_sites/GRCm38p6_MboI.txt \
+-s MboI \
+-g GRCm38p6 \
+-t 12
+```
+
+## ~~HiC Run Progress~~
+
+~~Command for Split Run, 8 nodes \[11-17,20] in GDLWulf~~
 
 ```bash
 bash ./juicer/scripts/juicer.sh \
@@ -15,10 +31,10 @@ bash ./juicer/scripts/juicer.sh \
 -e
 ```
 
-* Set1, 10 samples, w/ early stop, SRR10359958 \~ SRR10359967
-  * Start at 240528-1100
-* Set2, 10samples, w/ early stop, SRR10359968 \~ SRR10359977
-  * Start at 240530-2054
+* ~~Set1, 10 samples, w/ early stop, SRR10359958 \~ SRR10359967~~
+  * ~~Start at 240528-1100~~
+* ~~Set2, 10samples, w/ early stop, SRR10359968 \~ SRR10359977~~
+  * ~~Start at 240530-2054~~
 
 ## 240525, Hi-C Error
 
