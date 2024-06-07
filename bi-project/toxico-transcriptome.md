@@ -1,5 +1,21 @@
 # Toxico Transcriptome
 
+## 240607, Sample Selection in gene level
+
+* Code : "Step1\_SampleProfiling.ipynb"
+* Low correlation (< 0.95) was observed between replications of TPM in multiple samples.
+  * ex. BPS-HepG2 \~ 0.2459, BPA-H1299 \~ 0.9031
+  * In most case, the correlation of TPM b/w technical reps. was observed to be above 0.95.
+* Thus, in this study, samples with correlation b/w technical reps. below 0.95 and also lower than the correlation with other sample groups were excluded.
+  * H1299 BPA : 0.9032, $$\max(\rho_{i\neq j} )$$=0,9968 (H1299 Hg S2, TPM Hg S1)
+  * H1299 Tol : 0.9092,  $$\max(\rho_{i\neq j} )$$=0.9985 (H1299 Fu S1, H1299 NAP S2)
+  * HepG2 BPA : 0.9463, $$\max(\rho_{i\neq j} )$$=0.9932 (HepG2 Hg S2, HepG2 MP S1)
+  * HepG2 BPS : 0.2459,  $$\max(\rho_{i\neq j} )$$=0.9966 (HepG2 HCB S1, HepG2 Pb S2)
+  * HepG2 Cdcl2: 0.9339,  $$\max(\rho_{i\neq j} )$$=0.9933 (HepG2 Triclosan S1, HepG2 MEOHP S2)
+  * HepG2 Hg: 0.8103,  $$\max(\rho_{i\neq j} )$$= 0.9852 (HepG2 EP S1, HepG2 BPA S2)
+  * HepG2 MEOHP: 0.8852,  $$\max(\rho_{i\neq j} )$$=0.9933 (HepG2 Cdcl2 S2, HepG2 AC S1)
+  * HepG2 MP: 0.9040,  $$\max(\rho_{i\neq j} )$$= 0.9932 (HepG2 BPA S2, HepG2 BPA S1)
+
 ## 240525, Short Discussion
 
 ### Paper Structure
