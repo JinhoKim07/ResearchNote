@@ -1,5 +1,23 @@
 # GPS Project, HM Lee
 
+## HiC Merge
+
+* The method for merging `juicer` results using `mega.sh` for Hi-C data that has been processed for each technical replicates
+  * Refrencing the 'Creating a "mega" map section of the `juicer` github repository [\[Link\]](https://github.com/aidenlab/juicer/wiki/Usage).
+  * make soft link of All directory and run mega script with parameter as below,
+
+```bash
+bash ./juicer/scripts/mega.sh \
+-g ./juicer/references/GRCm38p6_Chromsize.txt \
+-y ./juicer/restriction_sites/GRCm38p6_MboI.txt \
+-s MboI \
+-T 12
+```
+
+## Issue: Pointer Null Exception
+
+* ??
+
 ## HiC Run Single
 
 * In the previous process, computations were performed by combining multiple technical replicates, which can eliminate natural duplication.&#x20;
