@@ -1,5 +1,11 @@
 # FROM Project, Prof. SH Lee (Dong-A Univ.)
 
+## 240610, Short Discussion w/ PI
+
+* For iAsgp, statistical significant difference observed in MCV.
+  * RBC development? -> Phenotype?
+* or Epigentic marker?
+
 ## 240523, LabMeeting&#x20;
 
 * DMR analysis -> Done&#x20;

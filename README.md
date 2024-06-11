@@ -4,10 +4,10 @@
 
 ### BI Project
 
-* [Toxico Transcriptome](bi-project/toxico-transcriptome.md) -> In progress
-* [FROM project](bi-project/from-project-prof.-sh-lee-chosun-univ..md) -> Wrap up
-* [Beno\[a\]pyrene project](bi-project/benzo-a-pyrene-project-prof.-sh-lee-cau.md)  w/ YJ Hwangbo -> In progress
-* [Sharpin Project ](bi-project/sharpin-project-prof.-sj-kim-chosun-univ..md)w/ YJ Hwangbo -> Downlaod
+* [Toxico Transcriptome](bi-project-progress/toxico-transcriptome.md) -> In progress
+* [FROM project](bi-project-progress/from-project-prof.-sh-lee-dong-a-univ..md) -> Wrap up
+* [Beno\[a\]pyrene project](bi-project-progress/benzo-a-pyrene-project-prof.-sh-lee-cau.md)  w/ YJ Hwangbo -> In progress
+* [Sharpin Project ](bi-project-progress/sharpin-project-prof.-sj-kim-chosun-univ..md)w/ YJ Hwangbo -> Downlaod
 
 ### Collaborative Project
 
