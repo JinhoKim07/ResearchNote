@@ -16,7 +16,13 @@
   * HepG2 MEOHP: 0.8852,  $$\max(\rho_{i\neq j} )$$=0.9933 (HepG2 Cdcl2 S2, HepG2 AC S1)
   * HepG2 MP: 0.9040,  $$\max(\rho_{i\neq j} )$$= 0.9932 (HepG2 BPA S2, HepG2 BPA S1)
 
-## 240525, Short Discussion
+## 240529, Short Discussion w/ PI
+
+* 누가 환경변화의 subtle change를 sensing하는가?
+* Chemical sensing mecahnism -> splicing
+  * or Speckle?
+
+## 240525, Short Discussion w/ GS Shin
 
 ### Paper Structure
 
