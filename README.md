@@ -15,7 +15,9 @@
 * [LaminB Project](meeting-archive/gsshin\_laminb.md), GS Shin -> Draft
 * [GPS Project](readme/gps-project-hm-lee.md), HM Lee -> In GDLWulf
 * [HP1 Project](meeting-archive/ynpark\_hp1.md), YN Park -> Pending
-* [PFOS Porject](meeting-archive/egmin\_pfos.md), EG Min(SeoulTech. Univ.) -> In progres
 
+### EXT-Collaborative Project
 
+* [PFOS Porject](bi-project-progress/egmin\_pfos.md), EG Min(SeoulTech. Univ.) -> In progress
+* [ATF3 Project](ext-collaborative-project-progress/atf3-pi.-wh-kim.md), PI WH Kim
 
