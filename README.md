@@ -4,20 +4,21 @@
 
 ### BI Project
 
-* [Toxico Transcriptome](bi-project-progress/toxico-transcriptome.md) -> In progress
-* [FROM project](bi-project-progress/from-project-prof.-sh-lee-dong-a-univ..md) -> Wrap up
-* [Beno\[a\]pyrene project](bi-project-progress/benzo-a-pyrene-project-prof.-sh-lee-cau.md)  w/ YJ Hwangbo -> In progress
-* [Sharpin Project ](bi-project-progress/sharpin-project-prof.-sj-kim-chosun-univ..md)w/ YJ Hwangbo -> Downlaod
+* [Toxico Transcriptome](bi-project-progress/toxico-transcriptome.md)
+* [FROM project](bi-project-progress/from-project-prof.-sh-lee-dong-a-univ..md)
+* [Beno\[a\]pyrene project](bi-project-progress/benzo-a-pyrene-project-prof.-sh-lee-cau.md)  w/ YJ Hwangbo
+* [Sharpin Project ](bi-project-progress/sharpin-project-prof.-sj-kim-chosun-univ..md)w/ YJ Hwangbo
+* [RI Project ](bi-project-progress/ri-tool-project.md)w/ YJ Hwangbo
 
 ### Collaborative Project
 
-* [Smug1 Project](meeting-archive/mjan\_smug1.md), MJ An -> In progress
-* [LaminB Project](meeting-archive/gsshin\_laminb.md), GS Shin -> Draft
-* [GPS Project](readme/gps-project-hm-lee.md), HM Lee -> In GDLWulf
-* [HP1 Project](meeting-archive/ynpark\_hp1.md), YN Park -> Pending
+* [Smug1 Project](meeting-archive/mjan\_smug1.md), MJ An
+* [LaminB Project](meeting-archive/gsshin\_laminb.md), GS Shin
+* [GPS Project](readme/gps-project-hm-lee.md), HM Lee
+* [HP1 Project](meeting-archive/ynpark\_hp1.md), YN Park
 
 ### EXT-Collaborative Project
 
-* [PFOS Porject](bi-project-progress/egmin\_pfos.md), EG Min(SeoulTech. Univ.) -> In progress
+* [PFOS Porject](bi-project-progress/egmin\_pfos.md), EG Min(SeoulTech. Univ.)
 * [ATF3 Project](ext-collaborative-project-progress/atf3-pi.-wh-kim.md), PI WH Kim
 
