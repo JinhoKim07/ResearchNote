@@ -14,5 +14,6 @@
   * [LaminB Project, GS Shin](meeting-archive/gsshin\_laminb.md)
   * [GPS Project, HM Lee](readme/gps-project-hm-lee.md)
   * [HP1 Project, YN Park](meeting-archive/ynpark\_hp1.md)
+  * [KIAA1211 Project, Prof. YS Jung](readme/kiaa1211-project-prof.-ys-jung.md)
 * [EXT-Collaborative Project Progress](ext-collaborative-project-progress/README.md)
   * [ATF3, PI. WH Kim](ext-collaborative-project-progress/atf3-pi.-wh-kim.md)

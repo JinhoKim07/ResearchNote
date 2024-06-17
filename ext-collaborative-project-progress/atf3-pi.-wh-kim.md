@@ -4,6 +4,12 @@ description: Quant-seq Analysis
 
 # ATF3, PI. WH Kim
 
+## 240617, Discussion w/ PI
+
+* P value from FPKM over 20 genes
+  * Union (4M and 12M)
+  * Seperate.. 4M and 12M
+
 ## 240612, Discussion
 
 * FPKM over 20 at least 1 group -> mininum criteria
