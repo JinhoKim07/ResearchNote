@@ -15,5 +15,6 @@
   * [GPS Project, HM Lee](readme/gps-project-hm-lee.md)
   * [HP1 Project, YN Park](meeting-archive/ynpark\_hp1.md)
 * [EXT-Collaborative Project Progress](ext-collaborative-project-progress/README.md)
+  * [Astrocyte, Prof. HJ Lee](ext-collaborative-project-progress/astrocyte-prof.-hj-lee.md)
   * [ATF3, PI. WH Kim](ext-collaborative-project-progress/atf3-pi.-wh-kim.md)
   * [KIAA1211 Project, Prof. YS Jung](ext-collaborative-project-progress/kiaa1211-project-prof.-ys-jung.md)
