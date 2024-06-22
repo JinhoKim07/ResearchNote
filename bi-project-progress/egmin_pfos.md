@@ -3,6 +3,7 @@
 ## 240622, Research Note
 
 * Transcript Level -> multiple Conc. group, ANODEV concept
+  * Remove TRE0001? Outliar
 * RI, IRFinder two group comparision only
 
 ## 240514, RI Analysis
