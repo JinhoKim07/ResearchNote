@@ -1,5 +1,25 @@
 # Pax6 Project, JY Kim / MJ An
 
+## 240624, Research Note, Bulk RNA Figure
+
+* 240624\_Version
+* ~~Fig 2 and S2 Done~~
+  * /mnt/InfoTrend/Pax6\_Project/240610\_RNAseq\_Modif\_2setmerge/Draft\_Figure2.ipynb
+* ~~Fig5A and Fig5SB~~
+  * /mnt/InfoTrend/Pax6\_Project/240201\_RNAseq\_Merged\_shSet\_Analysis/Draft\_Figure5.ipynb
+* ~~Fig5B, Fig5C, Fig5SA, Fig5SC~~
+  * /mnt/InfoTrend/Pax6\_Project/240327\_RNAseq\_SingleTest/Draft\_Figure5.ipynb
+* ~~Fig5D, Fig5E~~&#x20;
+  * /mnt/calculate3/210408\_Pax6\_Project/Draft\_Figure5\_1.ipynb
+* ~~Fig5F~~&#x20;
+  * /mnt/InfoTrend/Pax6\_Project/240201\_RNAseq\_Merged\_shSet\_Analysis/Draft\_Figure5\_GSEA.ipynb
+* ~~Fig5H~~&#x20;
+  * ~~/mnt/calculate3/210408\_Pax6\_Project/ChIP\_Second/Pax6Main\_Pooled/Draft\_Figure5h.ipynb~~
+* ~~Fig5G~~&#x20;
+  * ~~/mnt/calculate3/210408\_Pax6\_Project/ChIP\_Second/Pooled/Draft\_Figure5G.ipynb~~
+* Fig5I, J, K&#x20;
+  * /mnt/calculate3/210408\_Pax6\_Project/Draft\_Figure5\_2.ipynb
+
 ## 240610, Additional Figure
 
 ### Bulk RNA-seq
