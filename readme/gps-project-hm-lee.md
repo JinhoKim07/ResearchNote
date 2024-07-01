@@ -1,5 +1,10 @@
 # GPS Project, HM Lee
 
+## 240626, GPS Meeting
+
+* **GC0010:** Code upload to Github (make fit for GPS Project)
+* Probability distribution -> diag factor&#x20;
+
 ## HiC Merge
 
 * The method for merging `juicer` results using `mega.sh` for Hi-C data that has been processed for each technical replicates

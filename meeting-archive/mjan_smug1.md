@@ -1,5 +1,26 @@
 # Smug1 Project, MJ An
 
+## 240625, Dyer P.21 Data Analysis
+
+### To do List
+
+* ~~**C0008** RNA-seq -> FPKM Table for filtering~~
+* **GC0008** PolII ChIP -> Bigwig
+* **GC0008** WGBS -> **GC0013** WGBS Trimming Condition
+
+### Discussion Note
+
+* Sample -> P21, Mouse retina / rod sorted
+* RNA-seq
+  * SRR4253101/SRR4253102
+* PolII, ChIP-seq, PolII ser2
+  * SRR4252922
+* WGBS
+  * SRR4254705(P14) and SRR4254705(P21)
+  * P14 -> for smoothing
+  * Trimming Condition Check!
+    * In Instruction, trim 10bp using `cutadapt`
+
 ## 240522, CpG/non-CpG Methylation Pattern
 
 * Based on profile-plot, we focused on gene start and end point +-300bp
