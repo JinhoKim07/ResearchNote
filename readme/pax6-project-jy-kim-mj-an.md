@@ -1,5 +1,15 @@
 # Pax6 Project, JY Kim / MJ An
 
+## 240627, scRNA-seq
+
+* 1M GDL Data Added
+* All plots are revised.
+  * Mouse, Server3
+    * /mnt/InfoTrend/Pax6\_Project/240624\_scRNA\_Merged/240625\_scRNA\_Pax6\~ .ipynb
+  * Human, Server3
+    * /mnt/InfoTrend/Database/230428\_scRNA\_scATAC\_HumanRetinaCTL/240625\_scRNA\_Pax6\_Human\~.ipynb
+* All `random_init` is set to 0 (scanpy default).
+
 ## 240624, Research Note, Bulk RNA Figure
 
 * 240624\_Version

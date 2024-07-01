@@ -13,6 +13,7 @@
 
 ### Collaborative Project
 
+* [Pax6 Project](readme/pax6-project-jy-kim-mj-an.md), JY Kim / MJ An
 * [Smug1 Project](meeting-archive/mjan\_smug1.md), MJ An
 * [LaminB Project](meeting-archive/gsshin\_laminb.md), GS Shin
 * [GPS Project](readme/gps-project-hm-lee.md), HM Lee
@@ -21,5 +22,6 @@
 ### EXT-Collaborative Project
 
 * [ATF3 Project](ext-collaborative-project-progress/atf3-pi.-wh-kim.md), PI WH Kim
-* [KIAA Project](ext-collaborative-project-progress/kiaa1211-project-prof.-ys-jung.md), Prof YS Jung
+* [KIAA Project](ext-collaborative-project-progress/kiaa1211-project-prof.-ys-jung.md), Prof. YS Jung
+* [Astrocyte](ext-collaborative-project-progress/astrocyte-prof.-hj-lee.md), Prof. HJ Lee
 
