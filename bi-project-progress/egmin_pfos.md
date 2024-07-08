@@ -1,5 +1,10 @@
 # PFOS Project, EG Min (SeoulTech Univ.)
 
+## 240705, Mail Response
+
+* rMATS -> Error occured.
+  * rMATS has been performed again, and the results sent via email.
+
 ## 240622, Research Note
 
 * Transcript Level -> multiple Conc. group, ANODEV concept

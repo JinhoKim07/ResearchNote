@@ -1,5 +1,10 @@
 # FROM Project, Prof. SH Lee (Dong-A Univ.)
 
+## 240703, Short Discussion w/ PI
+
+* find DMR for marker of iAs, sum4As
+  * Including Intergenic regions
+
 ## 240610, Short Discussion w/ PI
 
 * For iAsgp, statistical significant difference observed in MCV.

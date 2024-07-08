@@ -7,7 +7,6 @@ description: Quant-seq Analysis
 ## 240622, Research Note
 
 * 4m / 12m merged data -> CV 0.3 and FPKM sum over 20 -> 2 genes are remained after filtering.
-*
 
 ## 240617, Discussion w/ PI
 

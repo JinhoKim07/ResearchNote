@@ -1,10 +1,21 @@
 # HP1 Project, YN Park
 
+## 240705, Discussion
+
+* HP1 ChIP-seq in ENCODE, (240703\_ChIP\_HP1\_ENCODE)
+  * K562, GM12878, H1, HepG2 cell line
+  * Peak patterns are similar to each other.
+* From ENCODE Set,&#x20;
+  * Some apoptosis-related genes overlap with other gene (ex, Bax or Bad)
+  * Therefore, re-annotate the apoptotic gene set or target gene set, and perform annotate on random or non-target gene set as background data.
+* HP1 ChIP-seq in Normal cell, (240628\_ChIP\_HP1\_GEO)
+  * Genome Analyser II, The data is sub-optimal ..&#x20;
+
 ## 240517, Discussion
 
-- PBS-NMDA: Hold
-- changed to cell-line
-  - GEO NGS, RNA-seq / H3K9me3 ChIP-seq/ ATAC-seq
+* PBS-NMDA: Hold
+* changed to cell-line
+  * GEO NGS, RNA-seq / H3K9me3 ChIP-seq/ ATAC-seq
 
 ## 240514, PBS-NMDA(Pax6set) Analysis
 

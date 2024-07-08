@@ -1,5 +1,10 @@
 # Sharpin Project, Prof. SJ Kim (Chosun Univ.)
 
+## 240703, Short Discussion w/ PI
+
+* scRNA-seq Done.
+* bulk RNA-seq (Sharpin set) analysis -> MasterTable and Basic Figure
+
 ## 240522, Zoom Meeting
 
 * Zoom Meeting, GDL-NAS, NGS\_Cloud/101\_Zoom\_Meeting/240522\_\<filename>

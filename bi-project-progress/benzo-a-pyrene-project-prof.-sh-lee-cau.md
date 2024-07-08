@@ -4,6 +4,11 @@ description: w/ YJ Hwangbo
 
 # Benzo\[a]pyrene Project, Prof. SH Lee (CAU)
 
+## 240708, Kick-off Meeting w/ PI and SH Lee
+
+* Writing -> Target Journal (JHM, .. and  ? )
+* Final Figure
+
 ## 240611, Short Discussion w/ PI
 
 * Ca+ channel or ion-channel issue?
