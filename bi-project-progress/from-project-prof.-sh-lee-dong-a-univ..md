@@ -4,6 +4,9 @@
 
 * find DMR for marker of iAs, sum4As
   * Including Intergenic regions
+* Message, 240708&#x20;
+  * Apoptotic Gene List -> Table
+  * Immune related Term -> GO
 
 ## 240610, Short Discussion w/ PI
 
