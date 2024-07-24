@@ -1,5 +1,12 @@
 # HP1 Project, YN Park
 
+## 240716, HP1, ChIP-Seq
+
+* HepG2, GM12878, K562 Encode Data
+  * Input, Pooling per lane
+  * Replicates -> Keep
+* Motif Finding, MAC2 adj P value 0.05 and nolambda option
+
 ## 240705, Discussion
 
 * HP1 ChIP-seq in ENCODE, (240703\_ChIP\_HP1\_ENCODE)

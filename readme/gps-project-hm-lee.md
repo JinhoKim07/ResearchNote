@@ -1,5 +1,11 @@
 # GPS Project, HM Lee
 
+## 240724, Lab Meeting
+
+* present, HiC-GNN paper&#x20;
+  * [HiC-GNN: A generalizable model for 3D chromosome reconstruction using graph convolutional neural networks](https://www.sciencedirect.com/science/article/pii/S2001037022006122)
+  * Computational and Structural Biotechnology Journal, 21, 812-836 (2023)
+
 ## 240626, GPS Meeting
 
 * **GC0010:** Code upload to Github (make fit for GPS Project)
