@@ -17,6 +17,7 @@
 * [Smug1 Project](meeting-archive/mjan\_smug1.md), MJ An
 * [LaminB Project](meeting-archive/gsshin\_laminb.md), GS Shin
 * [GPS Project](readme/gps-project-hm-lee.md), HM Lee
+* [Lap2a Project](readme/lap2a-project-ar-jo.md), AR Jo
 * [HP1 Project](meeting-archive/ynpark\_hp1.md), YN Park
 
 ### EXT-Collaborative Project
@@ -25,3 +26,6 @@
 * [KIAA Project](ext-collaborative-project-progress/kiaa1211-project-prof.-ys-jung.md), Prof. YS Jung
 * [Astrocyte](ext-collaborative-project-progress/astrocyte-prof.-hj-lee.md), Prof. HJ Lee
 
+## MISC
+
+* [MISC](misc.md)
