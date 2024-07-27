@@ -1,5 +1,14 @@
 # Lap2a Project, AR Jo
 
+## 240726, Discussion
+
+* RNA-seq -> scenesence gene list&#x20;
+  * X - age, Y - FPKM / Blue Normal, Red HGPS
+  * Some genes showed the patterns (Up or Down)
+* ChIP-seq, EZH2 in MEF
+  * Developmental stage -> Not fitted in this study
+  * Searching other sample
+
 ## 240723, Discussion
 
 * Senescence Issue
