@@ -1,5 +1,60 @@
 # GPS Project, HM Lee
 
+## 240729, HiC Merging Script
+
+* To Do List, Test for 10 or more samples (cat issue, 240525, Hi-C Error in document).
+* Step 1. Merge `merged_dedup.bam` from each single run
+
+```bash
+cThreads="$(getconf _NPROCESSORS_ONLN)"
+cThreadString="-@ $cThreads"
+samtools merge -c -t cb "$cThreadString" -o "${outputDir}"/mega_merged_dedup.bam ${bams_to_merge}
+```
+
+* Step 2. Split by quality score 1 and 30
+  * Error: the chromosome combination 7\_7 appears in multiple blocks \[[link](https://groups.google.com/g/3d-genomics/c/2w1OGHo5XdM)]
+  * in sort `-m` options have to remove
+    * This option merges already sorted files.
+
+```bash
+# mapq = 1 and mapq = 30
+samtools view "$cThreadString" -F 1024 -O sam "${outputDir}"/mega_merged_dedup.bam | awk -v mapq=1 -f "${juiceDir}"/scripts/common/sam_to_pre.awk > "${outputDir}"/merged1.txt
+# for the first read end chromosome to be less than the second read end chromosome
+awk '{if ($2 > $6){ print $5, $6, $7, $8, $1, $2, $3, $4 }else {print}}' "${outputDir}"/merged1.txt > "${outputDir}"/merged1.tmp.txt
+# for the reads to be sorted by chromosome block.
+sort --parallel=${cThreads} -S8G -T ${tmpdir} -k2,2d -k6,6d ${outputDir}/merged1.tmp.txt > ${outputDir}/merged1.sort.txt
+```
+
+* Step 3. Create the statistic files
+
+```bash
+site_file="../../juicer/restriction_sites/GRCm38p6_MboI.txt"
+outputDir="./"
+genomeID_file="../../juicer/references/GRCm38p6_Chromsize.txt"
+# or genomeID_files="none" also available option
+../../juicer/scripts/common/juicer_tools statistics "$site_file" "$outputDir"/inter.txt "$outputDir"/merged1.sort.txt "$genomeID_file"
+```
+
+* Step 4. make HIC
+
+```bash
+resstr="-r 2500000,1000000,500000,250000,100000,50000,25000,10000,5000,2000,1000,500,200,100"
+site_file="../../juicer/restriction_sites/GRCm38p6_MboI.txt"
+outputDir="./"
+genomeID_file="../../juicer/references/GRCm38p6_Chromsize.txt"
+fragstr="-f $site_file"
+../../juicer/scripts/common/juicer_tools pre -n -s $outputDir/inter.txt -g $outputDir/inter_hists.m -q 1 $resstr $fragstr $outputDir/merged1.sort.txt $outputDir/inter.hic $genomeID_file
+```
+
+* Step 4-1?. HiC Normalization
+
+```bash
+outputDir="./"
+../../juicer/scripts/common/juicer_tools addNorm ${outputDir}/inter.hic 
+```
+
+
+
 ## 240724, Lab Meeting
 
 * present, HiC-GNN paper&#x20;
@@ -25,9 +80,9 @@ bash ./juicer/scripts/mega.sh \
 -T 12
 ```
 
-## Issue: Pointer Null Exception
+## ~~Issue: Pointer Null Exception~~
 
-* ??
+* ~~Multicore process in juice\_tools pre -> single run~~
 
 ## HiC Run Single
 
@@ -65,15 +120,15 @@ bash ./juicer/scripts/juicer.sh \
 * ~~Set2, 10samples, w/ early stop, SRR10359968 \~ SRR10359977~~
   * ~~Start at 240530-2054~~
 
-## 240525, Hi-C Error
+## ~~240525, Hi-C Error (Solved)~~
 
-* Error occured at `dupmerge` in `dedup` process of JUICER.
+* ~~Error occured at `dupmerge` in `dedup` process of JUICER.~~
 
 ```bash
 /var/spool/slurm/d/job214779/slurm_script: line 12: /usr/bin/cat: Argument list too long
 ```
 
-* Error log in `dup-merge.err`
-  * hitting `MAX_ARG` limit of bash
-* (Solution?) FASTQ files are split and analyzed up to the deduplication step, then merged using the `mega.sh` script.
-  * Issues in JUICER Github: [https://github.com/aidenlab/juicer/issues/110](https://github.com/aidenlab/juicer/issues/110)
+* ~~Error log in `dup-merge.err`~~
+  * ~~hitting `MAX_ARG` limit of bash~~
+* ~~(Solution?) FASTQ files are split and analyzed up to the deduplication step, then merged using the `mega.sh` script.~~
+  * ~~Issues in JUICER Github:~~ [~~https://github.com/aidenlab/juicer/issues/110~~](https://github.com/aidenlab/juicer/issues/110)
