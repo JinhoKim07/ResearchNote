@@ -77,10 +77,17 @@ bash ./juicer/scripts/mega.sh \
 -g ./juicer/references/GRCm38p6_Chromsize.txt \
 -y ./juicer/restriction_sites/GRCm38p6_MboI.txt \
 -s MboI \
--T 12
+-T 12 \
+-f
 ```
 
 ## ~~Issue: Pointer Null Exception~~
+
+## Issue: Pointer Null Exception
+
+* \-f is the exclude option flag set to -> 0 : same as juicer.sh original script..&#x20;
+
+## Issue: Pointer Null Exception
 
 * ~~Multicore process in juice\_tools pre -> single run~~
 
